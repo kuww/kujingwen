@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+ul,
+li {
+    list-style: none
+}
+
+.ulLz li i {
+    background-repeat: no-repeat;
+    background-image: url(//static.360buyimg.com/devfe/toolbar/1.0.0/css/i/toolbars.png),
+}
