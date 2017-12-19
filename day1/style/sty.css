@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.app{
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.tit{
+	position: absolute;
+	right: 50px;
+	top:200px ;
+	width: 190px;
+	height: 420px;
+	background: #f5f5f5;
+}
+.tit_top{
+	height: 45px;
+	font-size: 14px;
+	padding: 15px 0 15px 15px;
+	color: #666;
+}
+.tit_top a{
+	float: left;
+}
+.tit_top a img{
+	width: 50px;
+	height: 50px;
+}
+.tit_top p{
+	width: 109px;
+	height: 18px;
+	float: left;
+	margin-left: 8px;
+	margin-bottom: 6px;
+}
+.top_two span{
+	margin-right: 5px;
+}
+.tit_two{
+	width: 170px;
+	height: 24px;
+	/*margin-top: 6px;*/
+}
+.tit_two a{
+	width: 74px;
+	height: 24px;
+	border: 2px solid #e01222;
+	text-decoration: none;
+	color: #E01222;
+	font-size: 12px;
+	padding: 3px 10px 2px 10px;
+	line-height: 10px;
+	margin-right: 10px;
+}
+.tit_two a:nth-child(1){
+	margin-left: 16px;
+}
+.tit_three{
+	padding: 8px 0 4px;
+	border-top: 1px solid #e6e6e6;
+	text-decoration: none;
+	margin-top: 10px;
+}
+.top_news{
+	width: 160px;
+	margin-left: 10px;
+	font-size: 14px;
+	color: #333;
+}
+.top_news .news_one{
+	border-bottom: 1px solid #E6E6E6;
+	padding-bottom: 6px;
+}
+.top_news .news_one a{
+	font-size: 13px;
+	color: #333;
+}
+.top_news .news_one a:nth-child(1){
+	margin-left: 8px;
+	padding-right: 15px;
+	border-right: 1px solid #E6E6E6;
+}
+.top_news .news_one a:nth-child(2){
+	padding-left: 15px;
+}
+.top_news .news_one a:nth-child(3){
+	padding-left: 40px;
+}
+.news_two{
+	font-size: 13px;
+	color: #333333;
+	list-style: none;
+	padding: 4px 10px 0 10px;
+}
+.news_two li {	
+	list-style: none;
+}
+.news_two li a{
+	color: #666666;
+	font-size: 12px;
+	line-height: 24px;
+}
+.tit_four{
+	
+}
+.tit_four ul{
+	
+}
+.tit_four li{
+	width: 46px;
+	height: 56px;
+	border-top: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
+	float: left;
+	list-style: none;
+	text-align: center;
+}
+.tit_four li i{
+	background-image: url(https://misc.360buyimg.com/mtd/pc/index/home/images/sprite_fs@1x.png);
+	width: 24px;
+    height: 24px;
+    display: block;
+    margin-left: 9px;
+}
+.tit_four li i:nth-child(1){
+	background-position: 25px -85px;
+}
+.tit_four a{
+	position: relative;
+}
+.tit_four a span:nth-child(1){
+	position: absolute;
+	left: 10px;
+	top: -5px;
+	color: white;
+	background: #e01222;
+}
+.tit_four li span{
+	font-size: 12px;
+	color: #666666;
+	/*margin-left: 10px;*/
+}
